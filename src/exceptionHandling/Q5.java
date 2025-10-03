@@ -25,12 +25,12 @@ public class Q5 {
 				
 			} catch (ArithmeticException e) {
 				// TODO: handle exception
-				return "Error: Division by zero";
+				return "Error: Division by zero "+e;
 			}
 			
 		} catch (NumberFormatException e) {
 			// TODO: handle exception
-			return "Error: Invalid input format";
+			return "Error: Invalid input format "+e;
 		}
 	}
 
